@@ -1,0 +1,59 @@
+
+title = 'My New Hugo Site'
+
+baseurl = "https://blank-lee.github.io"
+
+languageCode = "zh-tw"
+
+theme = "PaperMod"
+
+buildDrafts = false
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 10
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+[params.profileMode]
+enabled = true
+title = "content"
+subtitle = "content"
+imageUrl = "img/name.png"
+imageWidth = 120
+image = 120
+imageHeight = 120
+imageTitle = "content"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcon]]
+name = "github"
+url = "......"
+
+[params]
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+
+[params.cover]
+linkFullImage = true
