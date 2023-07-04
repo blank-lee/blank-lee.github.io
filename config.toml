@@ -1,11 +1,7 @@
-title = 'My New Hugo Site'
-
+title = "blank's blog"
 baseurl = "https://blank-lee.github.io"
-
 languageCode = "zh-tw"
-
 theme = "PaperMod"
-
 buildDrafts = false
 
 [[menu.main]]
@@ -26,15 +22,15 @@ name = "Archives"
 url = "/archives/"
 weight = 30
 
+
 [params.profileMode]
 enabled = true
-title = "content"
-subtitle = "content"
+title = "blank"
+subtitle = ":P"
 imageUrl = "img/name.png"
 imageWidth = 120
-image = 120
 imageHeight = 120
-imageTitle = "content"
+imageTitle = "..."
 
 [[params.profileMode.buttons]]
 name = "Blog"
@@ -44,14 +40,19 @@ url = "/posts/"
 name = "Categories"
 url = "/categories/"
 
-[[params.socialIcon]]
+[[params.socialicons]]
 name = "github"
-url = "......"
+url = "https://github.com/blank-lee"
+
+[[params.socialicons]]
+name = "email"
+url = "mailto:blank060706@gmail.com"
+
 
 [params]
 ShowBreadCrumbs = true
 ShowReadingTime = true
-ShowShareButtons = true
+ShowShareButtons = false
 ShowPostNavLinks = true
 
 [params.cover]
